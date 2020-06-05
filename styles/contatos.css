@@ -1,0 +1,161 @@
+html body {
+    margin: 0;
+    -webkit-font-smoothing: antialised;
+}
+
+#page-home {
+    height: 100vh;
+    background: url("/assets/undraw_to_the_moon_v1mv.svg") no-repeat;
+    background-attachment: fixed;
+    background-size: 50%;
+    background-position: center;
+}
+
+#home .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #c9ccdc;
+}
+
+.content header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    margin: 10px auto;
+    margin-bottom: 80px;
+}
+
+.content header a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: rgb(108, 99, 255);
+}
+
+.content header img {
+    padding-left: 5%;
+    width: 100px;
+    height: 50px;
+}
+
+.content main h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 40pt;
+    color: black;
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 15%;
+}
+
+.content main ul {
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
+    list-style: none;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(108, 99, 255);
+}
+
+.content main ul li {
+    display: flex;
+    flex-direction: column;
+}
+
+#twitter a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#twitter span {
+    background: url("/assets/twitter.svg") no-repeat;
+    background-position: center;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#youtube a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#youtube span {
+    background: url("/assets/youtube.svg") no-repeat;
+    background-position: center;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#instagram a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#instagram span {
+    background: url("/assets/instagram.svg") no-repeat;
+    background-position: center;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#flickr a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#flickr span {
+    background: url("/assets/flickr.svg") no-repeat;
+    background-position: center;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#linkedin a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#linkedin span {
+    background: url("/assets/linkedin.svg") no-repeat;
+    background-position: center;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
